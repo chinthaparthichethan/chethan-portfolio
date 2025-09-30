@@ -18,19 +18,20 @@ const Footer = () => {
             </p>
             <div className="flex space-x-3 md:space-x-4">
               {Object.entries(personalInfo.social).map(([platform, url]) => (
-                <motion.a
-                  key={platform}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.2, y: -2 }}
-                  className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:bg-primary-600 transition-all duration-300 text-sm md:text-base"
-                >
-                  {platform === 'github' && '🐙'}
-                  {platform === 'linkedin' && '💼'}
-                  {platform === 'twitter' && '🐦'}
-                  {platform === 'portfolio' && '🌐'}
-                </motion.a>
+                 <motion.a
+                                key={platform}
+                                href={url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                whileHover={{ scale: 1.05, y: -3 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="px-4 py-2 glass-effect rounded-full text-gray-600 hover:text-primary-600 hover:bg-white/20 transition-all duration-300 text-sm md:text-base font-medium capitalize"
+                              >
+                                {platform === 'github' && 'GitHub'}
+                                {platform === 'linkedin' && 'LinkedIn'}
+                                {platform === 'twitter' && 'Twitter'}
+                                {platform === 'portfolio' && 'Portfolio'}
+                              </motion.a>
               ))}
             </div>
           </motion.div>
