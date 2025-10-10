@@ -5,7 +5,7 @@ import { skills } from '../data/data'
 const SkillBubble = ({ skill, index, delay }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0, rotate: -180 }}
+      // initial={{ opacity: 0, scale: 0, rotate: -180 }}
       whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
       viewport={{ once: true }}
       transition={{ 
@@ -15,8 +15,8 @@ const SkillBubble = ({ skill, index, delay }) => {
         stiffness: 200 
       }}
       whileHover={{ 
-        scale: 1.1, 
-        rotate: 5,
+        scale:1.07, 
+        rotate: 0,
         transition: { duration: 0.2 }
       }}
       className="group relative"

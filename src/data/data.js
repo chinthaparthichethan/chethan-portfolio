@@ -66,6 +66,27 @@ export const skills = {
 
 export const projects = [
   {
+  id: 6, // Use the next available ID in your portfolio project list
+  title: "Indian Coin Store",
+  description: "A modern e-commerce web application for discovering and purchasing rare historical Indian coins. Provides a streamlined shopping experience with cart persistence, secure checkout, and automated email confirmations.",
+  image: "/images/projects/indian-coin-store.png", // Add an actual screenshot of your coin store homepage
+  technologies: ["React.js", "Tailwind CSS", "JavaScript", "Vite", "EmailJS", "LocalStorage", "Responsive Design"],
+  github: "https://github.com/Chinthaparthichethan/indian-coin-store-ecommerce", // Replace with your actual repo URL
+  live: "https://indian-coin-store-ecommerce.vercel.app/", // Replace with your deployed live site URL
+  category: "Fullstack",
+  featured: true,
+  duration: "September 2025",
+  highlights: [
+    "Fully responsive shopping site for rare Indian coins",
+    "Persistent cart with local storage and recovery system",
+    "Automated email order confirmations via EmailJS integration",
+    "Easy product filtering, smart search, and real-time cart updates",
+    "Mobile-first layout, smooth UI animations, and modern themes",
+    "Production-ready deployment on Vercel with environment configuration",
+    "Robust form validation, error handling, and PDF invoice generation"
+  ]
+},
+  {
     id: 1,
     title: "Automated Vehicle Damage Detection",
     description: "AI-powered system to detect car damage from images using CNN and YOLOv8 for insurance companies. Achieved over 85% accuracy on 1500+ test images with automated cost estimation.",
@@ -164,6 +185,7 @@ export const projects = [
     "Smooth button interactions and animations"
   ]
 },
+
 ];
 
 export const experience = [
