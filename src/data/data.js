@@ -7,7 +7,7 @@ export const personalInfo = {
   location: "Bangalore, India",
   bio: "Passionate Computer Science Engineering student with expertise in Python, Django, and machine learning. I specialize in building web applications and AI-powered solutions that solve real-world problems. I have completed B.Tech with a strong CGPA of 9.12 and hands-on experience in software development.",
   photo: "/images/chethanimage1.jpg", 
-  resume: "/chethan_resume1.pdf",
+  resume: "/chinthaparthi_chethan_resume.pdf",
   social: {
     github: "https://github.com/Chinthaparthichethan",
     linkedin: "https://linkedin.com/in/Chinthaparthichethan",
