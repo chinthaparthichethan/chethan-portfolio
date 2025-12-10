@@ -191,22 +191,32 @@ export const projects = [
 export const experience = [
   {
     id: 1,
-    position: "Python Development Intern",
-    company: "Cod Tech IT Solutions",
-    duration: "July 2024 – September 2024",
-    location: "Remote",
+    position: "Python Full Stack Developer Intern ",
+    company: "GRK IT Technologies",
+    duration: "April 2025 – October 2025",
+    location: "Bangalore",
     description: [
-      "Played a key role in writing Python code to support various software development tasks and projects",
-      "Utilized libraries like Pandas and NumPy for efficient data processing, analysis, and manipulation",
-      "Worked extensively with Git and GitHub for version control, change tracking, and team collaboration",
-      "Contributed to multiple projects involving data analysis and software development workflows",
-      "Gained hands-on experience in professional software development practices and methodologies"
+    "Assisted in building and maintaining full-stack web applications using Python, Django/Flask, and front-end technologies",
+    "Developed backend APIs, integrated databases, and implemented CRUD functionalities",
+    "Used HTML, CSS, and JavaScript to build responsive and user-friendly front-end interfaces",
+    "Worked with Git and GitHub for version control, code reviews, and collaborative development",
+    "Implemented data handling and server-side logic using Python, Pandas, and SQL",
+    "Gained hands-on experience in deploying and debugging full-stack applications"
     ],
-    technologies: ["Python", "Pandas", "NumPy", "Git", "GitHub", "Data Analysis"],
+    technologies: [ "Python",
+    "Django",
+    "Reactjs",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Pandas",
+    "SQL",
+    "Git",
+    "GitHub"],
     achievements: [
-      "Successfully completed multiple Python development projects",
-      "Improved data processing efficiency by 30% using optimized Pandas operations",
-      "Collaborated effectively with development team using Git workflows"
+      "Developed and deployed full-stack modules as part of multiple team projects",
+    "Improved backend performance by optimizing Python code and database queries",
+    "Contributed to seamless team collaboration through efficient Git branching strategies"
     ]
   }
 ];
@@ -221,7 +231,7 @@ export const education = [
     cgpa: "9.12",
     description: "B.Tech in Computer Science with excellent academic performance. Focused on software engineering, web development, machine learning, and data structures.",
     relevant_courses: [
-      "python",
+      "Python",
       "Data Structures & Algorithms",
       "Database Management Systems",
       "Web Technologies",
@@ -236,6 +246,43 @@ export const education = [
       "Active participant in coding competitions",
       "Led multiple technical projects",
       "Member of computer science technical society"
+    ]
+  },
+  {
+    id: 2,
+    degree: "Intermediate (MPC)",
+    institution: "Sri Chaitanya Junior College",
+    duration: "2019 - 2021",
+    location: "Madanapalli, Andhra Pradesh, India",
+    percentage: "89%",
+    description: "Completed Intermediate with MPC specialization, focusing on Mathematics, Physics, and Chemistry, with strong academic performance.",
+    relevant_courses: [
+      "Mathematics",
+      "Physics",
+      "Chemistry"
+    ],
+    achievements: [
+      "Achieved 89% overall percentage",
+      "Actively participated in academic and science-related events"
+    ]
+  },
+  {
+    id: 3,
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Peepal Tree School",
+    duration: "2018 - 2019",
+    location: "Madanapalli, Andhra Pradesh, India",
+    cgpa: "9.5",
+    description: "Completed schooling with strong academic foundation and active participation in school activities.",
+    relevant_courses: [
+      "General Science",
+      "Mathematics",
+      "English",
+      "Social Studies"
+    ],
+    achievements: [
+      "Secured 9.5 CGPA in SSC",
+      "Participated in school-level competitions and activities"
     ]
   }
 ];
